@@ -1,0 +1,47 @@
+body {
+    font-family: 'Arial', sans-serif;
+    background-color: #f4f4f4;
+    margin: 0;
+    padding: 0;
+    background-image: url("https://images.pexels.com/photos/209831/pexels-photo-209831.jpeg?auto=compress&cs=tinysrgb&w=600");
+background-size: 100%;
+}
+
+.weather-container {
+    max-width: 600px;
+    margin: 50px auto;
+    background-color: #fff;
+    padding: 20px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+h1, h2 {
+    text-align: center;
+}
+
+.search-container {
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+input {
+    padding: 8px;
+}
+
+button {
+    padding: 8px 15px;
+    background-color: #4CAF50;
+    color: #fff;
+    border: none;
+    cursor: pointer;
+}
+
+.weather-info {
+    text-align: center;
+}
+
+.error-message {
+    color: #FF0000;
+    text-align: center;
+    margin-top: 20px;
+}
